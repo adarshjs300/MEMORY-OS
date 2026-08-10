@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import { Navigate } from 'react-router-dom';
-import { useAuthStore } from '../store/authStore';
+
 import { useBootstrapAuth } from '../hooks/useBootstrapAuth';
 
 export function ProtectedRoute({ children }: { children: ReactNode }) {
